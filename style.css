@@ -11,7 +11,7 @@ display=swap'); */
 
 
 body {
-    
+    background: black;
     color: #ededed;
 
 }
@@ -30,12 +30,19 @@ body {
     z-index: 100;
 }
 
+
 .logo {
     font-size: 25px;
     color: #ededed;
     text-decoration: none;
     font-weight: 600;
 }
+
+.logo span{
+   color: #00adbf;
+   font-size: 130%;
+}
+
 
 .navbar a {
     font-size: 18px;
@@ -53,7 +60,7 @@ body {
 
  .home {
     height: 100vh;
-    background: url('indir (1).jpg') no-repeat;
+    /* background: url('likely2.jpg') no-repeat; */
     background-size: cover;
     background-position: center;
     display: flex;
